@@ -1,0 +1,13 @@
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.exe
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.deps.json
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.runtimeconfig.json
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.runtimeconfig.dev.json
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.dll
+C:\Users\Hendrik Cromboom\source\repos\Sharp\bin\Debug\netcoreapp3.1\Sharp.pdb
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.csprojAssemblyReference.cache
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.AssemblyInfoInputs.cache
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.AssemblyInfo.cs
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.csproj.CoreCompileInputs.cache
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.dll
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.pdb
+C:\Users\Hendrik Cromboom\source\repos\Sharp\obj\Debug\netcoreapp3.1\Sharp.genruntimeconfig.cache
