@@ -7,18 +7,11 @@ namespace Sharp
     {
         static void Main(string[] args)
         {
-            Communicate communicate1 = new Communicate;
- 
-            setPause();
-            sayHi();
-            string name = Console.ReadLine();
-            sayName(name);
-            setPause();
-            warnUser();
-            setPause();
-            explainGame();
-            setPause();
-            Console.Clear();
+            Game game = new Game();
+
+
+            
+            
 
             
         }

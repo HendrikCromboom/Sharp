@@ -6,22 +6,24 @@ namespace Sharp.Model
 {
     class Communicate
     {
-        static void sayHi()
+        private string name = "";
+        public void sayHi()
         {
             Console.WriteLine("Hello there wanderer, what ist thine name?");
+            this.name = Console.ReadLine();
         }
-        static void sayName(string name)
+        public void sayName()
         {
-            Console.WriteLine(name + " huh, that is a fine name indeed...");
+            Console.WriteLine(this.name + " huh, that is a fine name indeed...");
         }
-        static void setPause()
+        public void setPause()
         {
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("...");
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("...");
         }
-        static void warnUser()
+        public void warnUser()
         {
             Console.WriteLine("Hast thou heard of the game of life?");
             string answer = Console.ReadLine();
@@ -34,7 +36,7 @@ namespace Sharp.Model
                 Console.WriteLine("Not to fret, allow me to explain");
             }
         }
-        static void explainGame()
+        public void explainGame()
         {
             Console.WriteLine("I must warn you ... this isn't JUST a game");
         }
