@@ -40,5 +40,13 @@ namespace Sharp.Model
         {
             Console.WriteLine("I must warn you ... this isn't JUST a game");
         }
+        public string getName()
+        {
+            return this.name;
+        }
+        public string drawLine()
+        {
+            return "---------------------------------------------";
+        }
     }
 }
