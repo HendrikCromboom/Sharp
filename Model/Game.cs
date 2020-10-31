@@ -38,7 +38,7 @@ namespace Sharp.Model
             Console.WriteLine(this.communicate.drawLine());
             Console.WriteLine(this.end);
             Console.WriteLine(this.communicate.drawLine());
-            this.battle = new Battle(this.player, "1");
+            this.battle = new Battle(this.player, "1"); // The second parameter is a stringnumber for now, it represents the id of an enemy type that is stored inside of a List<List<string>>, will either add type casting to it, or idealy implement an actual database
 
         }
     }

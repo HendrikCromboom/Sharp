@@ -29,7 +29,7 @@ namespace Sharp.Model
             return this.enemies.Find(item => item[0] == id);
             
         }
-        public void initiateEnemies()
+        public void initiateEnemies() // For testing purposes this is how we create the data for the enemy types, ill have to learn how to implement data in a C# console app
         {
             
             var minorAnomality = new List<string> { "1", "Minor Anomality", "20", "2", "2"};
