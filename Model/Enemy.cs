@@ -11,7 +11,7 @@ namespace Sharp.Model
         private int health;
         private int exp;
         private int strength;
-        private List<List<string>> enemies;
+        private List<List<string>> enemies = new List<List<string>>();
         public Enemy(string id)
         {
             this.initiateEnemies();
@@ -21,6 +21,7 @@ namespace Sharp.Model
             this.health = this.maxHealth;
             this.exp = int.Parse(thisEnemy[3]);
             this.strength = int.Parse(thisEnemy[4]);
+            Console.WriteLine(this.name);
 
         }
         public List<string> fetchEnemy(string id)
