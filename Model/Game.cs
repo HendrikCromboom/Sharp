@@ -8,6 +8,7 @@ namespace Sharp.Model
     {
         private Communicate communicate;
         private Player player;
+        private Battle battle;
         private string end = "This is the end of the current alpha... thanks alot for checking this out!";
 
         public Game()
@@ -37,6 +38,7 @@ namespace Sharp.Model
             Console.WriteLine(this.communicate.drawLine());
             Console.WriteLine(this.end);
             Console.WriteLine(this.communicate.drawLine());
+            this.battle = new Battle(this.player, "1");
 
         }
     }
