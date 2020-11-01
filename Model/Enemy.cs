@@ -6,12 +6,12 @@ namespace Sharp.Model
 {
     class Enemy
     {
-        private string name;
-        private int maxHealth;
-        private int health;
-        private int exp;
-        private int strength;
-        private List<List<string>> enemies = new List<List<string>>();
+        protected string name;
+        protected int maxHealth;
+        protected int health;
+        protected int exp;
+        protected int strength;
+        protected List<List<string>> enemies = new List<List<string>>();
         public Enemy(string id)
         {
             this.initiateEnemies();
@@ -22,6 +22,7 @@ namespace Sharp.Model
             this.exp = int.Parse(thisEnemy[3]);
             this.strength = int.Parse(thisEnemy[4]);
             Console.WriteLine(this.name);
+            
 
         }
         public List<string> fetchEnemy(string id)
@@ -37,6 +38,15 @@ namespace Sharp.Model
             this.enemies.Add(minorAnomality);
             this.enemies.Add(mayorAnomality);
 
+
+        }
+
+    }
+
+    class Boss : Enemy
+    {
+        public Boss(string id):base(id)
+        {
 
         }
 
